@@ -44,7 +44,7 @@ That implemention of this is in the sca.py
 ## Result
 1-SCA helped to reduce 4387 features in TF-IDF method & 4358 featuers in BOW method that in each of them with a good results
 
-After implementing and executing the necessary steps, the following results were obtained :
+2-After implementing and executing the necessary steps, the following results were obtained :
 
 <div align="left">
 <img width="758" alt="ml" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/9adf5b33-fac3-41ac-88fb-e5396928ec69">
