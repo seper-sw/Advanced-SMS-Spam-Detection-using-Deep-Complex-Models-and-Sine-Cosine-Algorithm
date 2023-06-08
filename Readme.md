@@ -18,13 +18,13 @@ and  The fowchart of the proposed method for spam detection is :
 
 
 
-## Required libraries
-```bash
- pip install pandas
- pip install sklearn
- pip install nltk
- pip install numpy
-```
+## Requirement
+
+* Python 3 
+* Numpy
+* Pandas
+* Scikit-learn
+* Matplotlib
 
 
 ## Brief review of first paper
