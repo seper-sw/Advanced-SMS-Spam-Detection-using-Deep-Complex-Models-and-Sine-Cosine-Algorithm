@@ -39,6 +39,8 @@ This paper used SCA algorithm for feature extraction which this algorithm use th
 </div>
 
 That implemention of this is in the sca.py
+
+
 ## Result
 1-SCA helped to reduce 4387 features in TF-IDF method & 4358 featuers in BOW method that in each of them with a good results
 
