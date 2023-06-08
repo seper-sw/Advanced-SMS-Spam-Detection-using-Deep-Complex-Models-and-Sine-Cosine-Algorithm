@@ -5,6 +5,7 @@ In this project i used KNN & Random-forest & SVM & MLP algorithms to detect spam
 complete.ipynb 
 
 
+
 spam.csv is my dataset
 
 function.py is source of ANN that used in SCA for selecting features 
@@ -47,7 +48,7 @@ That implemention of this is in the sca.py
 2-After implementing and executing the necessary steps, the following results were obtained :
 
 <div align="left">
-<img width="758" alt="ml" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/9adf5b33-fac3-41ac-88fb-e5396928ec69">
+<img width="758" alt="ml" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/79299a13-318f-4670-a1a6-40a4008bf5ef">
 </div>
 
 
