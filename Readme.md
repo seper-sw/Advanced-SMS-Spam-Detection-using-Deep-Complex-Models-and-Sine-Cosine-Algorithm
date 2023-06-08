@@ -24,7 +24,7 @@ and  The fowchart of the proposed method for spam detection is :
 * Numpy
 * Pandas
 * Scikit-learn
-* Matplotlib
+
 
 
 ## Brief review of first paper
