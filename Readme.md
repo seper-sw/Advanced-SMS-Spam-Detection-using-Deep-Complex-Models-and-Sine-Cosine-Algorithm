@@ -39,7 +39,7 @@ In this article, KNN, Random-forest & SVM and MLP algorithms are used to identif
 This paper used SCA algorithm for feature extraction which this algorithm use this formula to update feature vector X:
 
 <div align="left">
-<img width="251" alt="sca" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/1a3fd0f3-c162-4e32-aa14-36899b7e1b06">
+<img width="600" alt="sca" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/1a3fd0f3-c162-4e32-aa14-36899b7e1b06">
 </div>
 
 and the cost function is :
