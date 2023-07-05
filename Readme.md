@@ -48,7 +48,7 @@ That implemention of this is in the sca.py
 2-After implementing and executing the necessary steps, the following results were obtained :
 
 <div align="left">
-<img width="758" alt="ml" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/79299a13-318f-4670-a1a6-40a4008bf5ef">
+<img width="758" alt="result" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/ae64d75f-238b-49ca-8430-b781b68389b2">
 </div>
 
 
