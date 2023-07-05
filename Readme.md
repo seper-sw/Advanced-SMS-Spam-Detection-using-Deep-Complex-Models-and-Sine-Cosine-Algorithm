@@ -6,14 +6,16 @@ complete.ipynb
 
 
 
+
 spam.csv is my dataset
 
 function.py is source of ANN that used in SCA for selecting features 
 and  The fowchart of the proposed method for spam detection is :
 
 <div align="left">
-<img width="755" alt="flow" src="https://github.com/seper-sw/sms/assets/94066230/d91d8369-ce70-491a-a5aa-9f7bbd811100">
+ <img width="416" alt="flow-chart" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/250cd661-7f09-4592-9cc7-c0cdbc10d593"><img width="416" alt="flow-chart" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/250cd661-7f09-4592-9cc7-c0cdbc10d593">
 </div>
+
 
 
 
@@ -36,7 +38,7 @@ In this article, KNN, Random-forest & SVM and MLP algorithms are used to identif
 This paper used SCA algorithm for feature extraction which this algorithm use this formula to update feature vector X:
 
 <div align="left">
-<img width="755" alt="formol" src="https://github.com/seper-sw/sms-spam-detection/assets/94066230/12b0c69e-8fd4-46c1-99d5-1fb9ea3c38d4">
+<img width="251" alt="sca" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/1a3fd0f3-c162-4e32-aa14-36899b7e1b06">
 </div>
 
 and the cost function is :
