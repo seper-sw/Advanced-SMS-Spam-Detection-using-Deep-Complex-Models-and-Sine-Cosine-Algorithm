@@ -43,7 +43,7 @@ That implemention of this is in the sca.py
 
 
 ## Result
-1-SCA helped to reduce 4387 features in TF-IDF method & 4358 featuers in BOW method that in each of them with a good results
+1-SCA helped to reduce 4409 features in TF-IDF method & 4404 featuers in BOW method that in each of them with a good results
 
 2-After implementing and executing the necessary steps, the following results were obtained :
 
