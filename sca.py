@@ -56,8 +56,8 @@ def SCAFUN(xtrain, ytrain, opts):
     Xdb   = np.zeros([1, dim], dtype='float')
     fitD  = float('inf')
     curve = np.zeros([1, max_iter], dtype='float') 
+    
     t     = 0
-
     while t < max_iter:
         # Binary conversion
         Xbin = binary_conversion(X, thres, 1, dim)
@@ -65,7 +65,7 @@ def SCAFUN(xtrain, ytrain, opts):
         # Fitness
         
         fit[0,0] = Fun(xtrain, ytrain, Xbin[0,:], opts)
-        if fit[0,0] < fitD:
+        if fit[0,0] < fitD:            # if better vector founded update it 
             Xdb[0,:] = X[0,:]
             fitD     = fit[0,0]
         
@@ -77,7 +77,7 @@ def SCAFUN(xtrain, ytrain, opts):
         r1 = alpha - t * (alpha / max_iter)
         
         
-        for d in range(dim):
+        for d in range(dim):                 #  make rand number r2,r3,r4
             # Random parameter r2 & r3 & r4
             r2 = (2 * np.pi) * rand()
             r3 = 2 * rand()

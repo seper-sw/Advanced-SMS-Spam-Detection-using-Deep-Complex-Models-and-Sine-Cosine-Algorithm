@@ -42,7 +42,6 @@ def error_rate(xtrain, ytrain, x, opts):
 def Fun(xtrain, ytrain, x, opts):
     # Parameters
     alpha    = 0.6
-    
     beta     = 1 - alpha
     # Original feature size
     max_feat = len(x)
