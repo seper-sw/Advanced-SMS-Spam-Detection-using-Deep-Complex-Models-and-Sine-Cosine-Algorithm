@@ -7,13 +7,14 @@ complete.ipynb
 
 
 
+
 spam.csv is my dataset
 
 function.py is source of ANN that used in SCA for selecting features 
 and  The fowchart of the proposed method for spam detection is :
 
 <div align="left">
- <img width="416" alt="flow-chart" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/250cd661-7f09-4592-9cc7-c0cdbc10d593"><img width="416" alt="flow-chart" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/250cd661-7f09-4592-9cc7-c0cdbc10d593">
+<img width="416" alt="flow-chart" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/5e736daf-833e-43d3-9e6e-bc69f63fd78a">
 </div>
 
 
