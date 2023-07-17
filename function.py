@@ -1,3 +1,6 @@
+" __________________Sepehr Rezaei__________________ "
+" ________________rsepehr746@gmail.com______________ "
+   
 import numpy as np
 from tensorflow import keras
 from keras.layers import Dense
