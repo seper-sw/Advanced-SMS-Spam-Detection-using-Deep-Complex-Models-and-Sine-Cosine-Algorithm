@@ -1,5 +1,5 @@
 
-# Implementing the combination of two Machine Learning papers
+# Spam SMS detection
 
 In this project i used KNN & Random-forest & SVM & MLP algorithms to detect spam from not-spam SMS and complete code exist in :
 complete.ipynb 
