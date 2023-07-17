@@ -1,3 +1,5 @@
+" __________________Sepehr Rezaei__________________ "
+" ________________rsepehr746@gmail.com______________ "
 import numpy as np
 from numpy.random import rand
 from function import Fun
