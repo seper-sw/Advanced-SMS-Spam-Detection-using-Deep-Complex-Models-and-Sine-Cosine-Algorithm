@@ -13,7 +13,7 @@ I used the feature extraction phase that this part utilizes, which incorporates 
 
 spam.csv is my dataset
 
-function.py is source of ANN that used in SCA for selecting features 
+function.py is source of ANN that used in SCA to calculate loss function 
 and  The fowchart of the proposed method for spam detection is :
 
 <div align="left">
@@ -33,13 +33,8 @@ and  The fowchart of the proposed method for spam detection is :
 * Tensorflow
 
 
-## Brief review of first paper
-
-In this article, KNN, Random-forest & SVM and MLP algorithms are used to identify spam SMS and TF-IDF and BOW methods are used on each algorithm.
-
-
-## Brief review of second paper
-This paper used SCA algorithm for feature extraction which this algorithm use this formula to update feature vector X:
+## Brief review of SCA-algorithm for feature extraction
+SCA algorithm use this formula to update feature vector X:
 
 <div align="left">
 <img width="600" alt="sca" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/1a3fd0f3-c162-4e32-aa14-36899b7e1b06">
@@ -77,7 +72,6 @@ That implemention of this is in the sca.py
 1-SMS Spam Using Machine-Learning Algorithms by Fatima Zohra El Hlouli, Jamal Riffi, Mohamed Adnane Mahraz,
 Ali El Yahyaouy and Hamid Tairi  
 
- then i used SCA(Sine-Cosine-algorithm) to extract most important features that it's actually implemention of this paper:
 
  2-Spam detection through feature selection using artifcial neural 
 network and sine–cosine algorithm by Rozita Talaei Pashiri1
