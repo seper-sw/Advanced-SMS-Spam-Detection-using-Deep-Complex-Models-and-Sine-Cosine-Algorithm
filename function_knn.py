@@ -28,7 +28,7 @@ def error_rate(xtrain, ytrain, x, opts):
     knn.fit(X=xtrain,y=ytrain)
     
     # Prediction
-    ypred   = knn.predict(X=xtest )
+    ypred   = knn.predict(X=xtest)
     acc     = np.sum(ytest  == ypred) / num_valid
     error   = 1 - acc
     
