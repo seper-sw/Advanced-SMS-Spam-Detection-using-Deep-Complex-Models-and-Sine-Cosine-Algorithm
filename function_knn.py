@@ -25,7 +25,7 @@ def error_rate(xtrain, ytrain, x, opts):
     ytest   = yv.reshape(num_valid)  # Solve bug   
     # Training
     knn=KNeighborsClassifier(n_neighbors=13)
-    knn.fit(X=xtrain)
+    knn.fit(X=xtrain,y=ytrain)
     
     # Prediction
     ypred   = knn.predict(X=xtest )

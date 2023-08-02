@@ -2,8 +2,8 @@
 " ________________rsepehr746@gmail.com______________ "
 import numpy as np
 from numpy.random import rand
-from function import Fun
-
+from function import Fun as mlp_classifier
+from function_knn import Fun as knn_classifier
 
 def init_position(lb, ub, N, dim):               # return a matrix of featuers data 
     X = np.zeros([1, dim], dtype='float')
@@ -33,7 +33,7 @@ def boundary(x, lb, ub):
     return x
  
 
-def SCAFUN(xtrain, ytrain, opts):
+def SCAFUN(xtrain, ytrain, opts ,classifier):
     # Parameters
     ub    = 1
     lb    = 0
@@ -65,12 +65,16 @@ def SCAFUN(xtrain, ytrain, opts):
         Xbin = binary_conversion(X, thres, 1, dim)
         
         # Fitness
-        
-        fit[0,0] = Fun(xtrain, ytrain, Xbin[0,:], opts)
-        if fit[0,0] < fitD:            # if better vector founded update it 
-            Xdb[0,:] = X[0,:]
-            fitD     = fit[0,0]
-        
+        if classifier=='mlp':
+            fit[0,0] = mlp_classifier(xtrain, ytrain, Xbin[0,:], opts)
+            if fit[0,0] < fitD:            # if better vector founded update it 
+                Xdb[0,:] = X[0,:]
+                fitD     = fit[0,0]
+        elif classifier=='knn':
+             fit[0,0] = knn_classifier(xtrain, ytrain, Xbin[0,:], opts)
+             if fit[0,0] < fitD:            # if better vector founded update it 
+                Xdb[0,:] = X[0,:]
+                fitD     = fit[0,0]
         # Store result
         curve[0,t] = fitD.copy()
         t += 1
