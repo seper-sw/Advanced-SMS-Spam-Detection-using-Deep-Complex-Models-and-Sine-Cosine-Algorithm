@@ -4,7 +4,8 @@ import numpy as np
 from numpy.random import rand
 from function import Fun as mlp_classifier
 from function_knn import Fun as knn_classifier
-
+from function_svm import Fun as svm_classifier
+from function_randomF import Fun as RandomF_classifier
 def init_position(lb, ub, N, dim):               # return a matrix of featuers data 
     X = np.zeros([1, dim], dtype='float')
     for d in range(dim):
@@ -75,6 +76,21 @@ def SCAFUN(xtrain, ytrain, opts ,classifier):
              if fit[0,0] < fitD:            # if better vector founded update it 
                 Xdb[0,:] = X[0,:]
                 fitD     = fit[0,0]
+        elif classifier=='random forest':
+             fit[0,0] = RandomF_classifier(xtrain, ytrain, Xbin[0,:], opts)
+             if fit[0,0] < fitD:            # if better vector founded update it 
+                Xdb[0,:] = X[0,:]
+                fitD     = fit[0,0]
+        elif classifier=='svm':
+             fit[0,0] = svm_classifier(xtrain, ytrain, Xbin[0,:], opts)
+             if fit[0,0] < fitD:            # if better vector founded update it 
+                Xdb[0,:] = X[0,:]
+                fitD     = fit[0,0]
+        else:
+            fit[0,0] = mlp_classifier(xtrain, ytrain, Xbin[0,:], opts)
+            if fit[0,0] < fitD:            # if better vector founded update it 
+               Xdb[0,:] = X[0,:]
+               fitD     = fit[0,0]
         # Store result
         curve[0,t] = fitD.copy()
         t += 1
