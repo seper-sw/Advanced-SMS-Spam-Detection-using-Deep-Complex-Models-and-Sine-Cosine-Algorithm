@@ -1,5 +1,5 @@
 
-# Spam SMS detection
+#  SMS Spam Detection
 
 In this project i used KNN & Random-forest & SVM & MLP algorithms to detect spam from not-spam SMS and complete code exist in :
 complete.ipynb 
