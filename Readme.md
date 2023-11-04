@@ -1,7 +1,8 @@
+# SMS  Spam Detection
 
-# Spam SMS detection
+In this project MLP & Complex MLP & KNN & SVM & Random-forest  algorithms implemented to  detect spam from not-spam SMS.
 
-In this project i used KNN & Random-forest & SVM & MLP algorithms to detect spam from not-spam SMS and complete code exist in :
+complete code exist in :
 complete.ipynb 
 
 I used the feature extraction phase that this part utilizes, which incorporates the metaheuristic algorithm SCA. It has been implemented in sca.py
