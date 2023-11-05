@@ -19,7 +19,7 @@ Complete code implementation already exists  in complete.py .
 1. Implementation of algorithms.  
  
 ### In the Dimension Reduction phase, we used the metaheuristic algorithm SCA. It has been implemented in sca.py
-function.py is source of ANN that used in SCA to calculate loss function 
+### function.py is source of ANN that used in SCA to calculate loss function 
 
 
 ### spam.csv is our dataset
