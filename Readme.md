@@ -70,7 +70,7 @@ That implemention of this is in the sca.py
 2-After implementing and executing the necessary steps, the following results were obtained :
 
 <div align="left">
-<img width="600" alt="Screenshot 2023-11-06 024114" src="https://github.com/seper-sw/SMS-Spam-Detection/assets/94066230/8cda96f9-40c7-416a-b385-e50df6d8b27c">
+<img width="800" alt="Screenshot 2023-11-06 024114" src="https://github.com/seper-sw/SMS-Spam-Detection/assets/94066230/8cda96f9-40c7-416a-b385-e50df6d8b27c">
 </div>
 
 
