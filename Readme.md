@@ -23,7 +23,7 @@ function.py is source of ANN that used in SCA to calculate loss function
 
 
 ### spam.csv is our dataset
-
+ 1. kaggle datasets download -d uciml/sms-spam-collection-dataset
 
 
 
@@ -74,16 +74,3 @@ That implemention of this is in the sca.py
 </div>
 
 
-
-
-## Refrence
-1-SMS Spam Using Machine-Learning Algorithms by Fatima Zohra El Hlouli, Jamal Riffi, Mohamed Adnane Mahraz,
-Ali El Yahyaouy and Hamid Tairi  
-
-
- 2-Spam detection through feature selection using artifcial neural 
-network and sine–cosine algorithm by Rozita Talaei Pashiri1
- · Yaser Rostami1  · Mohsen Mahrami1
-
- 3-spam dataset from :
- kaggle datasets download -d uciml/sms-spam-collection-dataset
