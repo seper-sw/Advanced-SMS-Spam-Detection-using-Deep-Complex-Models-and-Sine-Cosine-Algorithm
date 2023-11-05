@@ -1,5 +1,5 @@
 
-#  SMS Spam Detection
+#  Advanced-SMS-Spam-Detection-using-Deep-Complex-Models-and-Sine-Cosine-Algorithm
 
 In this project MLP & Complex MLP & KNN & Random-Forest & SVM Algorithms were used to detect spam from not-spam SMS And the Sine-Cosine Algorithm (SCA) was used for dimensionality reduction.
 Complete code implementation already exists  in complete.py .
