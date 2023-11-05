@@ -5,7 +5,7 @@ In this project MLP & Complex MLP & KNN & Random-Forest & SVM Algorithms were us
 Complete code implementation already exist in complete.py .
 
 ### complete.py includes:
-1. Data Pre-processing (1.1- change each word to lower case, 1.2- removing stop words 1.3- stemming)
+1. Data Pre-processing (1. change each word to lower case, 1. removing stop words 1. stemming)
 1. Tokenization with two methods TF-IDF, BOW
 1. Splitting Data set to Train and test Set with 70% ratio
  
