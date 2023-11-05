@@ -1,32 +1,31 @@
 
 #  SMS Spam Detection
 
-In this project MLP & Complex MLP & KNN & Random-Forest & SVM Algorithms were used to detect spam from not-spam SMS And the SCA Algorithm was used for dimensionality reduction.
-Complete code implementation already exist in complete.py .
+In this project MLP & Complex MLP & KNN & Random-Forest & SVM Algorithms were used to detect spam from not-spam SMS And the Sine-Cosine Algorithm (SCA) was used for dimensionality reduction.
+Complete code implementation already exists  in complete.py .
 
-### complete.py includes:
-1. Data Pre-processing
-   - change each word to lower case
-   - removing stop words
-   -  stemming
-1. Tokenization with two methods TF-IDF, BOW
-1. Splitting Data set to Train and test Set with 70% ratio
+### complete.py includes :
+1. Data Pre-processing :
+   - Change each word to lower case
+   - Removing stop words
+   - Stemming
+1. Tokenization with two methods:
+   - TF-IDF
+   -  BOW
+1. Splitting Data set to Train and Test Set : 
+   - 70% for Training.
+   - 30% for Test.
+1. Dimension Reduction Phase that used the SCA Algorithm.
+1. Implementation of algorithms.  
  
-I used the feature extraction phase that this part utilizes, which incorporates the metaheuristic algorithm SCA. It has been implemented in sca.py
-
-
-
-
-
-
-spam.csv is my dataset
-
+### In the Dimension Reduction phase, we used the metaheuristic algorithm SCA. It has been implemented in sca.py
 function.py is source of ANN that used in SCA to calculate loss function 
-and  The fowchart of the proposed method for spam detection is :
 
-<div align="left">
-<img width="750" alt="flow-chart" src="https://github.com/seper-sw/Spam-sms-detection/assets/94066230/5e736daf-833e-43d3-9e6e-bc69f63fd78a">
-</div>
+
+### spam.csv is our dataset
+
+
+
 
 
 
@@ -41,7 +40,7 @@ and  The fowchart of the proposed method for spam detection is :
 * Tensorflow
 
 
-## Brief review of SCA-algorithm for feature extraction
+## Brief review of SCA-algorithm 
 SCA algorithm use this formula to update feature vector X:
 
 <div align="left">
